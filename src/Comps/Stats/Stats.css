@@ -1,0 +1,31 @@
+.stats-div{
+    width: 36%;
+    height: 50%;
+    background-color: #195d94;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.stat-text{
+    color: #fff;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .stats-div{
+        width: 90%;
+        height: 20%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .stats-div{
+        width: 90%;
+        height: 25%;
+    }
+}

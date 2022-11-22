@@ -1,0 +1,33 @@
+.hour-item{
+    height: 95%;
+    width: 95%;
+
+    background-color: #195d94;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.hourly-time{
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+.hourly-icon{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    width: 100%;
+
+}
+.hourly-temp{
+    grid-column: 3/5;
+    grid-row: 2/4;
+
+}
